@@ -67,3 +67,13 @@ function toggleSelect(event) {
     
     input.value = button.dataset.value;
 }
+
+function validateLocation(event) {
+    const lat = document.querySelector("input[name=lat]").value;
+    const lng = document.querySelector("input[name=lng]").value;
+    
+    if ((lat && lng) == "") {
+        event.preventDefault();
+        alert('Escolha a localização');
+    }
+}

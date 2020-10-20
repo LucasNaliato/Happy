@@ -38,7 +38,7 @@
             </aside>
 
             <main class="animate-appear with-sidebar">
-                <form action="">
+                <form action="save-orphanage" onsubmit="validateLocation(event)" method="POST">
                     <fieldset>
                         <legend>Dados</legend>
 
@@ -74,7 +74,7 @@
                             <div class="images-upload" id="images">
                                 
                                 <div class="new-upload">
-                                    <input name="images" placeholder="Cole o link da foto aqui" required>
+                                    <input type="url" name="images" placeholder="Cole o link da foto aqui" required>
                                     <span onclick="DeleteField(event)"><img src="/images/remove-file.svg" alt="Remover imagem"></span>
                                 </div>
                             </div>
@@ -104,7 +104,7 @@
 
                             <div class="button-select">
                                 <button data-value="1" type="button" onclick="toggleSelect(event)" class="active">Sim</button>
-                                <button data-value="2" type="button" onclick="toggleSelect(event)">Não</button>
+                                <button data-value="0" type="button" onclick="toggleSelect(event)">Não</button>
                             </div>
 
                             <button type="submit" class="primary-button">
