@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <b>Conecte pessoas a orfanatos e traga felicidade as crianças.</b>
+  <b>Conecte pessoas a orfanatos e traga felicidade para as crianças.</b>
 </p>
 
 <br />
@@ -32,7 +32,7 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/LucasNaliato/Happy
+$ git clone https://github.com/LucasNaliato/Happy.git
 
 # Acesse a pasta do projeto no terminal/cmd
 $ cd Happy
